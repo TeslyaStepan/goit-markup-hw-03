@@ -121,7 +121,7 @@ a {
   color: #2e2f42;
   text-decoration: none;
   padding-top: 24px;
-    padding-bottom: 24px;
+  padding-bottom: 24px;
 }
 
 .header-nav:hover,
@@ -148,8 +148,8 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
   padding-top: 24px;
-    padding-bottom: 24px;
-    display: block;
+  padding-bottom: 24px;
+  display: block;
 }
 
 .address-item:hover,
@@ -166,7 +166,6 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-top: 188px;
   margin: 0 auto;
   margin-bottom: 48px;
   max-width: 496px;
@@ -175,6 +174,7 @@ a {
 .main-section {
   background: #2e2f42;
   padding-bottom: 188px;
+  padding-top: 188px;
 }
 
 .order-button {
@@ -190,14 +190,21 @@ a {
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
-  width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border: none;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  min-width: 169px;
 }
 
 .order-button:hover,
 .order-button:focus {
   background-color: #404bbf;
+}
+
+/* about us */
+
+.about-us {
+  padding: 120px 0;
 }
 
 .seconary-title {
@@ -212,14 +219,12 @@ a {
 
 .about-us-list {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
-.about-us-item{
-
+.about-us-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .about-us-title {
@@ -241,23 +246,22 @@ a {
 /* our team */
 
 .team-main-title {
-  padding-top: 120px;
   margin: 0 auto 72px;
 }
 
 .our-team {
   background: #f4f4fd;
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .team-list {
   display: flex;
   align-items: flex-start;
   gap: 24px;
-  
 }
 
-.team-photo{
+.team-photo {
   display: block;
   max-width: 100%;
   object-fit: cover;
@@ -283,16 +287,21 @@ a {
   padding-bottom: 32px;
 }
 
-.team-card {
+.team-item {
   background: #ffffff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* portfolio */
 
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .our-portfolio-title {
   margin: 0 auto;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -319,9 +328,12 @@ a {
   margin-bottom: 8px;
 }
 
+/* footer  */
+
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-footer {
@@ -336,6 +348,7 @@ a {
   text-decoration: none;
   justify-content: flex-start;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-p {
@@ -344,6 +357,5 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-bottom: 100px;
   max-width: 264px;
 }
