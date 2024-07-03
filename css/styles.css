@@ -291,12 +291,14 @@ a {
 
 .team-item {
   background: #ffffff;
-  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  
   
 }
 
 .team-card {
 border-radius: 0px 0px 4px 4px;
+width: calc((100% - 72px) / 4);
 }
 
 .team-member-name {
@@ -323,7 +325,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .portfolio-item {
-  border: 1px solid #e7e9fc;
+  
 }
 
 .portfolio-text {
