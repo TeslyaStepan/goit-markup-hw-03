@@ -276,8 +276,6 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 32px;
-  margin-bottom: 8px
 }
 
 .our-team-p {
@@ -287,7 +285,6 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  padding-bottom: 32px;
 }
 
 .team-card {
@@ -321,13 +318,10 @@ background: #ffffff;
 }
 
 .portfolio-text {
-  padding-left: 16px;
-  padding-bottom: 32px;
+ 
 }
 
 .our-projects {
-  margin-top: 32px;
-  padding-left: 16px;
   margin-bottom: 8px;
 }
 
